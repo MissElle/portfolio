@@ -29,7 +29,7 @@ h1 {
 navbar {
   font-family: navfont;
   color: #00004d;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 a {
@@ -42,4 +42,24 @@ a:link {
 
 a:hover {
   color: #ff4da6;
+}
+
+a:visited {
+  color: #00004d;
+}
+
+header {
+  position: fixed;
+  top: -2em;
+  left: 0em;
+  margin: 0em;
+  padding 3em;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .6);
+
+}
+
+navbar {
+  position:absolute;
+  top: 2em;
 }
