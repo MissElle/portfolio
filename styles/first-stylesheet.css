@@ -40,12 +40,12 @@ a:link {
   color: #00004d;
 }
 
-a:hover {
-  color: #ff4da6;
-}
-
 a:visited {
   color: #00004d;
+}
+
+a:hover {
+  color: #ff4da6;
 }
 
 header {
