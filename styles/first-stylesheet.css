@@ -1,0 +1,45 @@
+@font-face {
+  font-family: headingfont;
+  src: url(../fonts/fat-stack.ttf);
+}
+
+@font-face {
+  font-family: navfont;
+  src: url(../fonts/alphabetized-cassette-tapes.ttf);
+}
+
+@font-face {
+  font-family: bodyfont;
+  src: url(../fonts/anna-regular.ttf);
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: 100%;
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+
+h1 {
+  font-family: headingfont;
+  color: #00004d;
+  font-size: 5em;
+}
+
+navbar {
+  font-family: navfont;
+  color: #00004d;
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #00004d;
+}
+
+a:hover {
+  color: #ff4da6;
+}
