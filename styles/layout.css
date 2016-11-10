@@ -1,18 +1,26 @@
 header {
   position: fixed;
-  top: 0rem;
+  top: -3.5rem;
   left: 0rem;
   margin: 0rem;
-  padding 5rem;
+  padding 0rem;
   width: 100%;
-  height: 14rem;
   z-index: 10;
 }
 
 nav {
   position:relative;
   top: -3rem;
-  display:inline-block;
+  left: 2.5rem;
+  z-index: 10;
+}
+
+nav a {
+  float: left;
+}
+
+footer a {
+  padding: 0 0 0 0;
 }
 
 footer {
@@ -24,16 +32,13 @@ footer {
 }
 
 div.container {
-  position:relative;
-  top: 12rem;
-  margin-bottom: 3rem;
+  height: 100%;
+  margin: 14.5rem 0rem 12rem 7rem;
   z-index: 3;
 }
 
 section {
-  float: left;
 }
 
 figure {
-  float: right;
 }
