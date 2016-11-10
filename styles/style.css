@@ -26,7 +26,7 @@ h1 {
   font-size: 5em;
 }
 
-navbar {
+nav {
   font-family: navfont;
   color: #00004d;
   font-size: 4em;
@@ -48,42 +48,11 @@ a:hover {
   color: #ff4da6;
 }
 
-header {
-  position: fixed;
-  top: -2em;
-  left: 0em;
-  margin: 0em;
-  padding 10em;
-  width: 100%;
-  background-color: rgba(255, 255, 255, .8);
-  text-indent: 4em;
-  font-family: headingfont;
-  z-index: 10;
-}
-
-navbar {
-  position:absolute;
-  top: 2em;
-  display:inline;
-}
-
 footer {
-  position: fixed;
-  bottom: 0em;
-  left: 0em;
-  width: 100%;
   background-color: rgba(255, 255, 255, .8);
   text-indent: 4em;
   font-family: bodyfont;
   color: #00004d;
-  z-index: 9;
-}
-
-div.container {
-  position:absolute;
-  top: 12em;
-  left: 6em;
-  z-index: 3;
 }
 
 figure {
@@ -95,5 +64,4 @@ article {
   font-family: bodyfont;
   font-size: 20px;
   color: #00004d;
-  clear: left;
 }
