@@ -33,12 +33,11 @@ footer {
 
 div.container {
   height: 100%;
-  margin: 14.5rem 0rem 12rem 7rem;
+  margin: 14.5rem 0rem 7rem 7rem;
   z-index: 3;
 }
 
-section {
-}
-
-figure {
+section img {
+  float: right;
+  padding: 1rem 1rem 1rem 1rem;
 }
