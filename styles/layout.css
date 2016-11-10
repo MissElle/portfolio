@@ -1,42 +1,40 @@
 header {
   position: fixed;
-  top: -2em;
-  left: 0em;
-  margin: 0em;
-  padding 10em;
+  top: 0rem;
+  left: 0rem;
+  margin: 0rem;
+  padding 5rem;
   width: 100%;
-  background-color: rgba(255, 255, 255, .8);
-  text-indent: 4em;
-  font-family: headingfont;
+  height: 14rem;
   z-index: 10;
 }
 
-navbar {
-  position:absolute;
-  top: 2em;
-  display:inline;
+nav {
+  position:relative;
+  top: -3rem;
+  display:inline-block;
 }
 
 footer {
   position: fixed;
-  bottom: 0em;
-  left: 0em;
+  bottom: 0rem;
+  left: 0rem;
   width: 100%;
   z-index: 9;
 }
 
 div.container {
-  position:absolute;
-  top: 12em;
-  left: 6em;
+  position:relative;
+  top: 12rem;
+  left: 6rem;
+  margin-bottom: 3rem;
   z-index: 3;
 }
 
-figure {
+section {
   float: left;
-  text-align: center;
 }
 
-article {
-  clear: left;
+figure {
+  float: right;
 }

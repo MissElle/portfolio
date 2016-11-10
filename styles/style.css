@@ -48,6 +48,12 @@ a:hover {
   color: #ff4da6;
 }
 
+header {
+  background-color: rgba(255, 255, 255, .8);
+  text-indent: 4rem;
+  font-family: headingfont;
+}
+
 footer {
   background-color: rgba(255, 255, 255, .8);
   text-indent: 4em;
