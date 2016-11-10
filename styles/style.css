@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: headingfont;
   src: url(../fonts/fat-stack.TTF);
 }
@@ -11,7 +11,9 @@
 @font-face {
   font-family: bodyfont;
   src: url(../fonts/anna-regular.ttf);
-}
+} 
+
+**temporarily disabling custom fonts**/
 
 html {
   background-image: url("../images/background.jpg");
@@ -20,7 +22,7 @@ html {
 }
 
 h1 {
-  font-family: headingfont;
+  font-family: 'Homemade Apple', cursive;
   color: #00004d;
   font-size: 6rem;
 }
@@ -52,13 +54,13 @@ footer a:visited {
 header {
   background-color: rgba(255, 255, 255, .8);
   text-indent: 4rem;
-  font-family: headingfont;
+  font-family: 'Homemade Apple', cursive;
 }
 
 nav a {
-  font-family: navfont;
+  font-family: 'Rock Salt', cursive;
   color: #00004d;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 footer a{
@@ -69,7 +71,7 @@ footer a{
 footer {
   background-color: rgba(255, 255, 255, .8);
   text-indent: 4rem;
-  font-family: bodyfont;
+  font-family: 'Coming Soon', cursive;
   color: #00004d;
 }
 
@@ -79,7 +81,7 @@ figure {
 }
 
 article {
-  font-family: bodyfont;
+  font-family:'Coming Soon', cursive;
   font-size: 1.5rem;
   color: #00004d;
 }
