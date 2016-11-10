@@ -26,7 +26,6 @@ footer {
 div.container {
   position:relative;
   top: 12rem;
-  left: 12rem;
   margin-bottom: 3rem;
   z-index: 3;
 }

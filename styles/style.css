@@ -13,9 +13,10 @@
   src: url(../fonts/anna-regular.ttf);
 }
 
-body {
+html {
   background-image: url("../images/background.jpg");
   background-size: 100%;
+  min-height: 100rem;
   background-repeat: repeat-y;
   background-position: left top;
 }
