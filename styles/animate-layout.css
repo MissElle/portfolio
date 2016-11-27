@@ -1,0 +1,110 @@
+html {
+  background-image: url(../images/carpet.jpg);
+  background-size: contain;
+}
+
+header {
+  position: fixed;
+  top: 0rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0rem;
+}
+
+#center {
+  position: relative;
+  margin-top; 25vh;
+  margin-bottom; 0;
+  margin-right: auto;
+  margin-left; auto;
+}
+
+#wood {
+  width: 40rem;
+  height: 22rem;
+  border-radius: 15%;
+  background-image:url(../images/wood.jpg);
+  background-size:contain;
+}
+
+#red {
+  list-style: none;
+  float:left;
+  margin: .3rem;
+  width: 4rem;
+  height:20rem;
+  border-radius: 7%;
+  background-color: #cc0000;
+}
+
+#orange {
+  list-style: none;
+  float:left;
+  margin: .3rem;
+  width: 4rem;
+  height:18.48rem;
+  border-radius: 7%;
+  background-color: #ff6600;
+}
+
+#yellow {
+  list-style: none;
+  float:left;
+  margin: .3rem;
+  width: 4rem;
+  height:17.06rem;
+  border-radius: 7%;
+  background-color: #ffcc00;
+}
+
+#green {
+  list-style: none;
+  float:left;
+  margin: .3rem;
+  width: 4rem;
+  height:15.64rem;
+  border-radius: 7%;
+  background-color: #009900;
+}
+
+#cyan {
+  list-style: none;
+  float:left;
+  margin: .3rem;
+  width: 4rem;
+  height:14.22rem;
+  border-radius: 7%;
+  background-color: #0099cc;
+}
+
+#blue {
+  list-style: none;
+  float:left;
+  margin: .3rem;
+  width: 4rem;
+  height:12.8rem;
+  border-radius: 7%;
+  background-color: #0000cc;
+}
+
+#purple {
+  list-style: none;
+  float:left;
+  margin: .3rem;
+  width: 4rem;
+  height:11.38rem;
+  border-radius: 7%;
+  background-color: #660066;
+}
+
+#pink {
+  list-style: none;
+  float:left;
+  margin: .3rem;
+  width: 4rem;
+  height:10rem;
+  border-radius: 7%;
+  background-color: #ff3399;
+}
