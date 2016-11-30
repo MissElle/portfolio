@@ -29,7 +29,7 @@ li:hover {
   }
 
 nav a:hover {transform:scale(1.2);}
-nav a:hover {transition: all .3s ease-in-out;}
+nav a:hover {transition: all .25s ease-in-out;}
 
 footer i:hover {transform:scale(1.4);}
-footer i:hover {transition: all .3s ease-in-out;}
+footer i:hover {transition: all .25s ease-in-out;}
