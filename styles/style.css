@@ -78,6 +78,8 @@ footer {
 figure {
   float: left;
   text-align: center;
+  font-size: 1.2rem;
+  overflow: visible;
 }
 
 article {
