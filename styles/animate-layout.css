@@ -3,51 +3,26 @@ html {
   background-size: contain;
 }
 
-header {
-  position: fixed;
+header{
   top: 0rem;
   font-family: 'Homemade Apple', cursive;
   color: #00004d;
-  font-size: 1.2rem;
-}
-
-nav {
-  position: absolute;
-  min-width: 45rem;
-  top: 4.5rem;
-  font-family: 'Rock Salt', cursive;
-  color: #00004d;
-}
-
-nav a {
-  padding: 1rem;
-  color: #00004d;
-  font-size: 1.3rem;
-  text-decoration: none;
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 footer {
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0rem;
   font-family: 'Coming Soon', cursive;
   font-weight: bold;
+  font-size: 1.6rem;
   color: #00004d;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
-}
-
-nav a:link {
-  color: #00004d;
-}
-
-nav a:visited {
-  color: #00004d;
-}
-
-nav a:hover {
-  color: #ff4da6;
 }
 
 footer a:hover {
@@ -59,11 +34,9 @@ footer a:visited {
 }
 
 #center {
-  position: relative;
-  top: 7rem;
   min-width: 46rem;
   min-height: 24rem;
-  margin-top; 24vh;
+  margin-top; vh;
   margin-bottom; 0;
   margin-right: auto;
   margin-left: auto;
