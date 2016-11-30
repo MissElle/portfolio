@@ -34,10 +34,8 @@ footer a:visited {
 }
 
 #center {
-  min-width: 46rem;
-  min-height: 24rem;
-  margin-top; vh;
-  margin-bottom; 0;
+  width: 46rem;
+  height: 28rem;
   margin-right: auto;
   margin-left: auto;
 }
