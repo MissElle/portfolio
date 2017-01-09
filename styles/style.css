@@ -1,8 +1,8 @@
-/*@font-face {
+@font-face {
   font-family: headingfont;
   src: url(../fonts/fat-stack.TTF);
 }
-
+/*
 @font-face {
   font-family: navfont;
   src: url(../fonts/alphabetized-cassette-tapes.ttf);
@@ -22,7 +22,7 @@ html {
 }
 
 h1 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'headingfont';
   color: #00004d;
   font-size: 6rem;
 }
@@ -52,9 +52,8 @@ footer a:visited {
 }
 
 header {
-  background-color: rgba(255, 255, 255, .8);
-  text-indent: 4rem;
-  font-family: 'Homemade Apple', cursive;
+  background:rgba(255,255,255,.8);
+  font-family: 'headingfont';
 }
 
 nav a {
@@ -66,12 +65,13 @@ nav a {
 footer a{
   text-decoration: none;
   font-size: 2rem;
+    text-indent: 2rem;
 }
 
 footer {
   background-color: rgba(255, 255, 255, .8);
-  text-indent: 4rem;
   font-family: 'Coming Soon', cursive;
+  font-size: 1.5rem;
   color: #00004d;
 }
 
