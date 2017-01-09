@@ -42,9 +42,9 @@ div.center {
   margin: 0 auto;
 }
 
-section img {
-  float: left;
-  padding: 1rem 1rem 1rem 1rem;
+.float {
+  float: right;
+  padding: 1rem;
 }
 
 h2 {
@@ -58,6 +58,6 @@ h3 {
   clear:both;
 }
 
-h2.education {
-  text-align: left;
+p {
+  padding: 0 0 0 2.5rem;
 }
