@@ -28,16 +28,16 @@ li:hover {
     100% {transform:translate(0,0)}
   }
 
+nav>a {display:inline-block;}
 nav a:link {color: #00004d;}
 nav a:visited {color: #00004d;}
 nav a:hover {color: #ff4da6;}
+nav a:hover {transform:scale(1.5);}
+nav a:hover {transition: all .07s ease-in;}
+nav a {transition: all .07s ease-out;}
 
 footer a:hover {color: #ff4da6;}
 footer a:visited {text-decoration: none;}
-
-nav a:hover {transform:scale(2);}
-nav a:hover {transition: all .07s ease-in;}
-nav a {transition: all .07s ease-out;}
 
 footer i:hover {transform:scale(1.4);}
 footer i:hover {transition: all .07s ease-in;}

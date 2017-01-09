@@ -11,12 +11,13 @@ header {
 
 nav {
   position: relative;
-  top: -4rem;
+  top: -8rem;
   text-align: center;
 }
 
 nav>a {
-  padding:2rem;
+  display:inline-block;
+  padding:3rem;
 }
 
 footer a {
