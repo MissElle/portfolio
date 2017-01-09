@@ -5,20 +5,21 @@ header {
   margin: 0rem;
   padding 0rem;
   width: 100%;
-  min-width: 52rem;
-  height: 16rem;
+  min-width: 40.5rem;
+  height: 10rem;
   z-index: 10;
 }
 
 nav {
   position: relative;
-  top: -8rem;
+  top: -4.3rem;
   text-align: center;
 }
 
 nav>a {
   display:inline-block;
-  padding:3rem;
+  padding-left:3rem;
+  padding-right:3rem;
 }
 
 footer a {
@@ -29,9 +30,11 @@ footer {
   position: fixed;
   text-align: center;
   bottom: 0rem;
+  height: 4rem;
   left: 0rem;
   width: 100%;
   min-width: 25rem;
+  overflow: visible;
   z-index: 9;
 }
 
@@ -41,28 +44,29 @@ div.container {
   z-index: 3;
 }
 
-div.center {
-  width: 47rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .float {
   float: right;
   padding: 1rem;
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
+  text-indent: 5rem;
   clear:both;
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
+  text-indent: 5rem;
+  font-size: 1.5rem;
   clear:both;
 }
 
 p {
   padding: 0 0 0 2.5rem;
+}
+
+figure img {
+  width: 80%;
 }

@@ -24,7 +24,7 @@ html {
 h1 {
   font-family: 'headingfont';
   color: #00004d;
-  font-size: 6rem;
+  font-size: 4.3rem;
   text-align: center;
 }
 
@@ -40,7 +40,7 @@ header {
 nav a {
   font-family: 'Rock Salt', cursive;
   color: #00004d;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 footer p>a{
@@ -59,12 +59,12 @@ footer {
 figure {
   float: left;
   text-align: center;
-  font-size: 2rem;
 }
 
 figcaption {
-  max-width: 20rem;
-  height: 5rem;
+  font-size: 1.3rem;
+  max-width: 15rem;
+  height: 4rem;
 }
 
 article {
