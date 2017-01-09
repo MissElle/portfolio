@@ -7,13 +7,13 @@
   font-family: navfont;
   src: url(../fonts/alphabetized-cassette-tapes.ttf);
 }
-
+*/
 @font-face {
   font-family: bodyfont;
   src: url(../fonts/anna-regular.ttf);
 } 
 
-**temporarily disabling custom fonts**/
+/**temporarily disabling custom fonts**/
 
 html {
   background-image: url("../images/background.jpg");
@@ -25,29 +25,10 @@ h1 {
   font-family: 'headingfont';
   color: #00004d;
   font-size: 6rem;
+  text-align: center;
 }
 
 a {
-  text-decoration: none;
-}
-
-nav a:link {
-  color: #00004d;
-}
-
-nav a:visited {
-  color: #00004d;
-}
-
-nav a:hover {
-  color: #ff4da6;
-}
-
-footer a:hover {
-  color: #ff4da6;
-}
-
-footer a:visited {
   text-decoration: none;
 }
 
@@ -62,28 +43,28 @@ nav a {
   font-size: 2rem;
 }
 
-footer a{
+footer p>a{
   text-decoration: none;
   font-size: 2rem;
-    text-indent: 2rem;
+  text-indent: 2rem;
 }
 
 footer {
   background-color: rgba(255, 255, 255, .8);
   font-family: 'Coming Soon', cursive;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #00004d;
 }
 
 figure {
   float: left;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 article {
-  font-family:'Coming Soon', cursive;
-  font-size: 1.5rem;
+  font-family:'bodyfont';
+  font-size: 1.7rem;
   color: #00004d;
 }
 

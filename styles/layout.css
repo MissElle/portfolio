@@ -12,9 +12,10 @@ header {
 nav {
   position: relative;
   top: -4rem;
+  text-align: center;
 }
 
-nav a {
+nav>a {
   padding:2rem;
 }
 
@@ -38,8 +39,9 @@ div.container {
 }
 
 div.center {
-  width: 55rem;
-  margin: 0 auto;
+  width: 47rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .float {
