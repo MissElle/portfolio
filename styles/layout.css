@@ -5,6 +5,7 @@ header {
   margin: 0rem;
   padding 0rem;
   width: 100%;
+  min-width: 47rem;
   height: 16rem;
   z-index: 10;
 }
@@ -30,6 +31,7 @@ footer {
   bottom: 0rem;
   left: 0rem;
   width: 100%;
+  min-width: 25rem;
   z-index: 9;
 }
 
